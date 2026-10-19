@@ -1,0 +1,243 @@
+{
+ "repo": "psrobotics/Quadruped_bai_servo",
+ "commit": "60c67f256e8d5fcfbbe39e168c901ea47757eb8b",
+ "files": [
+  {
+   "path": ".gitignore",
+   "sha": "38b40cd3713585a04fc988bb1db3fd935714cd93"
+  },
+  {
+   "path": "LICENSE",
+   "sha": "d91566a5950b234fa86787edd9007ffbde75e50e"
+  },
+  {
+   "path": "README.md",
+   "sha": "f55b1216603137eb6473db1d4bd2a8620cce1ce1"
+  },
+  {
+   "path": "eletronic/ctr_brd/ctr_brd.brd",
+   "sha": "4f3d6e3a70f78da01c0905108b22543e12120d10"
+  },
+  {
+   "path": "eletronic/ctr_brd/ctr_brd.sch",
+   "sha": "a0b3ced0e823ff3d3c915d0c3cd30cf4736b24d7"
+  },
+  {
+   "path": "eletronic/ctr_brd/ctr_brd_g.zip",
+   "sha": "dc93d5c49be08d55b9cafe53c2382d38a07f7317"
+  },
+  {
+   "path": "eletronic/dc_dc/dc_dc.brd",
+   "sha": "82cba876aa2f8a6d602536918ef9e11a86521e3e"
+  },
+  {
+   "path": "eletronic/dc_dc/dc_dc.sch",
+   "sha": "555f5de59b05becbd3f473a2ee45fb7e23012a15"
+  },
+  {
+   "path": "eletronic/dc_dc/dc_dc_g.zip",
+   "sha": "9623459ac76435f1fde5fe6383b4204efcb2d909"
+  },
+  {
+   "path": "hardware/step/18650_battery_pack.stp",
+   "sha": "938e503b9d9eac08a842f3514b069423e6fcddb3"
+  },
+  {
+   "path": "hardware/step/feet_sensor.stp",
+   "sha": "bbe2f23f113f6d8111de57f13f785582166090af"
+  },
+  {
+   "path": "hardware/step/quadruped_bai_servo_assembly.stp",
+   "sha": "7105bee43a78e891d771588483d1dc6117d85345"
+  },
+  {
+   "path": "hardware/stl/body_bridge_1.stl",
+   "sha": "1c5fc199a927509cd47572b39d46dda658ae0b54"
+  },
+  {
+   "path": "hardware/stl/body_frame_1.stl",
+   "sha": "cc8b287c6837004e9ccd9725683310f5517d32df"
+  },
+  {
+   "path": "hardware/stl/body_frame_2.stl",
+   "sha": "c291ed43a71935aa8aae4a11d5eba3f7cc48b966"
+  },
+  {
+   "path": "hardware/stl/feet_sensor/leg_tip_sensor.stl",
+   "sha": "4ce8e21255a599b62e7b83b15731cb0c54157375"
+  },
+  {
+   "path": "hardware/stl/feet_sensor/leg_tip_sensor2.stl",
+   "sha": "557bc23098aa7f6b9176394c6206a55bb51732f8"
+  },
+  {
+   "path": "hardware/stl/feet_sensor/sensor_shelf.stl",
+   "sha": "e01fb97a0adaa318143fb067501a239e9b0b3d15"
+  },
+  {
+   "path": "hardware/stl/hip_holder_2.stl",
+   "sha": "746984f7e0862f31cd1b7e267c37967cada5947c"
+  },
+  {
+   "path": "hardware/stl/hip_holder_2_MIR.stl",
+   "sha": "7748c652439c4e288a5f1b7f5c487bf9d1c72fdb"
+  },
+  {
+   "path": "hardware/stl/hip_joint_holder_1.stl",
+   "sha": "07280d2095093e96a9068cff6d6f5265e714ed91"
+  },
+  {
+   "path": "hardware/stl/hip_joint_holder_1_MIR.stl",
+   "sha": "94ee695e660e090869d38a97ad91e2ed4ef44de7"
+  },
+  {
+   "path": "hardware/stl/joint_ab_holder.stl",
+   "sha": "056bb351bd251d7f0e4c04a697ae11b8bfe6a39a"
+  },
+  {
+   "path": "hardware/stl/leg_1.stl",
+   "sha": "144ba431ce4e60060330905ede62a5593aa10c1d"
+  },
+  {
+   "path": "hardware/stl/leg_1_2_MIR.stl",
+   "sha": "c5bb817e2ad2f3bdcff2a259454a09cdefef4375"
+  },
+  {
+   "path": "hardware/stl/leg_1_MIR.stl",
+   "sha": "238a5400e3a397dcb45bf166fa7d2c2b58669756"
+  },
+  {
+   "path": "hardware/stl/leg_2.stl",
+   "sha": "b36b6f5be93fc30f2e60dbac25c8a2bc999a4167"
+  },
+  {
+   "path": "hardware/stl/leg_2_MIR.stl",
+   "sha": "f86965e35eef14620397419dd882e1c4c8333b88"
+  },
+  {
+   "path": "hardware/stl/leg_link-1.stl",
+   "sha": "b9bad6b91e5ef54067c03994fb3fe75250f946ee"
+  },
+  {
+   "path": "hardware/stl/leg_link-1_MIR.stl",
+   "sha": "df24a95e6d438a0714b1e9d4d86ce52ed8510dba"
+  },
+  {
+   "path": "hardware/stl/leg_link_1.stl",
+   "sha": "329f5a3b6cc7f581d2594f5df81230645f04c09e"
+  },
+  {
+   "path": "hardware/stl/leg_link_1_MIR.stl",
+   "sha": "8309f78c9c6096b564947c8b4c333be5abd0c2e7"
+  },
+  {
+   "path": "hardware/stl/leg_tip.stl",
+   "sha": "60369521067e0c1d47c7180dd9c911418946eb2b"
+  },
+  {
+   "path": "hardware/stl/leg_tip_MIR.stl",
+   "sha": "fcbede43deaea479d7721f2097a177a2fa5ad743"
+  },
+  {
+   "path": "hardware/stl/pcb_holder.stl",
+   "sha": "d8f5c45cbb4d97955152125a16f3c635a48cc1cb"
+  },
+  {
+   "path": "hardware/stl/servo_holder_1.stl",
+   "sha": "2c1f94fbcda10f78434f57239971f6db1ee415bc"
+  },
+  {
+   "path": "hardware/stl/servo_holder_1_MIR1.stl",
+   "sha": "969ccf8ce8f8e6052f21c6f03bde3b1d35b3b12e"
+  },
+  {
+   "path": "pic/batt.JPG",
+   "sha": "c564234df33e039806aaa4c497e8ef613633bea6"
+  },
+  {
+   "path": "pic/body_ass_1.jpg",
+   "sha": "48fd72da201d60e3d445866af011110caf928146"
+  },
+  {
+   "path": "pic/controller_1.JPG",
+   "sha": "fd0f3e33d6865b6ccb8eac4037d8837d08cf2713"
+  },
+  {
+   "path": "pic/dc_dc.JPG",
+   "sha": "b62c92ddccf582491b90e97184cd5da61131541d"
+  },
+  {
+   "path": "pic/feet_sensor.JPG",
+   "sha": "6ceaed0a58453a4485e4b08288124f073cb7bf41"
+  },
+  {
+   "path": "pic/leg_ass_1.jpg",
+   "sha": "d0bf53ad35a30934096648dcd9ce991dfb179705"
+  },
+  {
+   "path": "pic/m_range_ab.JPG",
+   "sha": "06bed027677642561e846f9e463d8f2201f3c2d2"
+  },
+  {
+   "path": "pic/m_range_hip.JPG",
+   "sha": "63121bc15021e2597e5bc9c294a07d51f195bb82"
+  },
+  {
+   "path": "pic/m_range_knee.JPG",
+   "sha": "2fd6f0e9571fd36c956bcf48407d5c48d5930a9c"
+  },
+  {
+   "path": "pic/quad_servo.jpg",
+   "sha": "21681e03d800ffda17dc48c168845081a74d065f"
+  },
+  {
+   "path": "pic/quad_servo_cad.jpg",
+   "sha": "74d1d1403bdabd3c97d94ca8dacdfdc5a4c88076"
+  },
+  {
+   "path": "pic/sim.gif",
+   "sha": "1b8cd17f073d7995a4e82d06171b6b27e1cfa21b"
+  },
+  {
+   "path": "simulate/quadruped_bai_servo.ttt",
+   "sha": "a7b34a42cc57748e830b7e11b5aee7e9822cfbbf"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/gait_generator.cpp",
+   "sha": "c748684302cbdd9d0b431ca4b2c317e3f1d6705c"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/gait_generator.h",
+   "sha": "6322e369106272cb5ffa57365b6d10967a1dfeca"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/kinematics.cpp",
+   "sha": "dca92e79b21d9d28b3d9d431c980044ad20f69bc"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/kinematics.h",
+   "sha": "d5d64ea90c740779ee2756ff49d3c5057a4448f0"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/matrix.cpp",
+   "sha": "f3ea592ab92dfd84bae756eb0e19a50ad7c3e683"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/matrix.h",
+   "sha": "ade7ff31b86c2ac155b689ec936669419f1e8ae8"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/mpu_sensor.cpp",
+   "sha": "7853b6677daf1e2d44fefb8b87e0b5bfd00c104c"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/mpu_sensor.h",
+   "sha": "37f32fe260783d32ccd06631bf64bb9395fcc906"
+  },
+  {
+   "path": "software/firmware/quad_bai_s_ctr/quad_bai_s_ctr.ino",
+   "sha": "f4286f494867012478232829a81f42efe8be166f"
+  }
+ ],
+ "excluded": []
+}
