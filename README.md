@@ -92,6 +92,10 @@ Quadruped_bai_servo v1 by Shuang Peng (github.com/psrobotics), BSD-3-Clause. Cha
 - STEP assembly and CoppeliaSim simulation scene: `source/upstream/hardware/step/` and `source/upstream/simulate/` in this repository.
 - Joint range drawings and assembly pictures: `source/upstream/pic/` in this repository.
 
+## Bill of Material
+
+[Bill of Material (PDF)](docs/Quadruped%20Bai%20Servo%20Robot%20Dog%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
+
 ## Documentation download
 
 This repository is the documentation and source download for the build.
