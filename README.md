@@ -94,6 +94,8 @@ Quadruped_bai_servo v1 by Shuang Peng (github.com/psrobotics), BSD-3-Clause. Cha
 
 ## Bill of Material
 
+[Bill of Material (web page)](https://toolknox.github.io/hawkridge-quadruped-bai-servo-12dof-robot/bill-of-material.html): open in the browser and click straight through to each part.
+
 [Bill of Material (PDF)](docs/Quadruped%20Bai%20Servo%20Robot%20Dog%20-%20Bill%20of%20Material.pdf): every part to buy, with shop links.
 
 ## Documentation download
